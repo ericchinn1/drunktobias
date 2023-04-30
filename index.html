@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <title>Drunk Tobias</title>
 </head>
 <body>
+<div id="wrapper">
 
 <h1>DRUNK TOBIAS</h1>
 <hr>
@@ -13,26 +15,33 @@
 </blockquote>
 <hr>
 <div class="container">
-<img src="unnamed.jpg" height="230px"; width="380px";>  
+<img 
+
+src="images/unnamed.jpg" alt="unnamed"; class="imgimg">  
 </div>  
 <div class="container">
-<img src="drunkard.jpg" height="230px"; width="380px">  
+  <br>
+<img src="images/drunkard.jpg" alt="drunkard"; class="imgimg">  
 </div>
+<br>
 <div class="container">
-<img src="tobias.jpg" height="230px"; width="380px">  
+<img src="images/tobias.jpg" alt="tobias"; class="imgimg">  
 </div>
+<br>
 <h2>The Legend of <b>Drunk Tobias</b></h2>
-<p>Tobias hails from the northernmost edge of the northernmost woods known to man. A docile commoner during the morning hours, after a number of cold and cheap ales, the hero comes out in the form of a drunkard. Drunk Tobias has been known to charm a group of a dozen women, fight a whole lot of scoundrels, and sniff out nicotine from the dirtiest ends of the local watering hole. This humble website is dedicated to documenting the coming and goings of this rare individual. Please follow along as we attempt to keep up with this man.</p>
-<link rel="icon" type="images/x-icon" href="wheaty.png">
- </body>
+<p>Tobias hails from the northernmost edge of the northernmost woods known to man. A docile commoner during the morning hours, after a number of cold and cheap beers, the hero comes out in the form of a drunkard. Drunk Tobias has been known to charm a group of a dozen women, fight a whole lot of scoundrels, and sniff out nicotine from the dirtiest ends of the local watering whole. This humble website is dedicated to documenting the coming and goings of this rare individual. Please follow along as we attempt to keep up with this man.</p>
+<link rel="icon" type="images/x-icon" href="images/wheat.png">
+</div>
+</body>
 
 <style>
 blockquote {text-align: center; color: black; font-family: 'Times New Roman', Times, serif; margin: 10px 30px; border: 1px; padding: 25px; background-color: rgb(217, 170, 51); border: 1px solid black; box-sizing: border-box;}
 h1 {font-family: fantasy; color:black; text-align: center;}
-body {background-color: wheat;}
+body {background-color: wheat;
+background-image: url(images/grain222.png);}
 h2 {font-family:fantasy; color: brown; text-align: center;}
 p {text-align: center; font-family: 'Times New Roman', Times, serif; margin: 15px 35px; border: 1px; padding: 20px; background-color: rgb(217, 170, 51); border: 1px solid green; box-sizing: content-box;}
-
+div {background-color:rgb(222, 184, 135, .85);margin:0 auto 0 auto;width: 940px;}
 img:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */
   animation: shake 0.5s;
@@ -54,8 +63,12 @@ img:hover {
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
-div.container {
-          display:inline; padding-left: 30px; text-align: center; height: 30px; margin-left: auto; margin-right: auto;
-        }
+div#container {
+          padding-left: 30px; text-align: center;display: flex;justify-content: center;height: 500px;align-items: center;
+}
+img {
+  width: 750px;height: 500px;margin: 0 auto 0 auto;
+}
+.imgimg {display: block; margin-left: auto; margin-right: auto;}
 </style>
 </html>
