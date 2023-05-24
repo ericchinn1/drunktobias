@@ -2,10 +2,14 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>The DT Lifestyle</title>
-    <link rel="icon" type="images/x-icon" href="wheaty.png">
+    <title>The Drunk Tobias Lifestyle</title>
     <style>
-        body {background-color: wheat;background-image: url(grain222.png);}
+                * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+        body {background-color: wheat;background-image: url(images/grain222.png);}
 div {background-color:rgb(222, 184, 135, .85);margin:0 auto 0 auto;width: 940px;}
 h1 {font-family: fantasy; color:black; text-align: center;}
 h2 {font-family:fantasy; color: brown; text-align: center;}
@@ -14,18 +18,52 @@ img {width: 300px;height: 600px;margin:0 20px 0 100px;}
 .pages {
   text-align:center;
 }
+.header {
+    width: 940px;
+  }
+  nav {
+      height: 50px;
+      background: wheat;
+      line-height: 50px;
+      margin-bottom: 25px;
+      clear: all;
+      width: 940px;
+  }
+  nav li {
+      list-style-type: none;
+      width: 33.3333%;
+      text-align: center;
+      float: left;
+      clear: all;
+  }
+  nav a {
+      text-decoration: none;
+      color: black;
+      display: block;
+  }
+  nav a:hover {
+   background: rgb(217, 170, 51);
+   color: black;
+  }
     </style>
 </head>
 <body>
 <div>
- <h1>THE DRUNK TOBIAS LIFESTYLE</h1>   
- <div class="pages">
-    <a href="index.html"> | HOME | </a>
-    <a href="about.html"> | ABOUT THE BREWER | </a>
-  </div>
+ <h1>The Drunk Tobias Lifestyle</h1>   
+ <div class="header">
+  <header>
+    <nav>
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About the Brewer</a></li>
+    <li><a href="ourlifestyle.html">Our Lifestyle</a></li>
+    </ul>
+    </nav>
+    </header>  
+</div>
 <h2>WHAT WE STAND FOR</h2>
-<img src="bobby.jpg">
-<img src="snaptoby.jpg">
+<img src="images/bobby.jpg">
+<img src="images/snaptoby.jpg">
 <p>The DT lifestyle is a new age approach to the ever changing concept of what it means to be "alive".
 <br>
 <br>
