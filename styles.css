@@ -1,0 +1,69 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  .header {
+    width: 940px;
+    clear: both;
+  }
+  nav {
+      height: 50px;
+      background: wheat;
+      line-height: 50px;
+      margin-bottom: 25px;
+      clear: all;
+      width: 940px;
+  }
+  nav li {
+      list-style-type: none;
+      width: 25%;
+      text-align: center;
+      float: left;
+      clear: all;
+      font-family: 'Josefin Sans', sans-serif;
+  }
+  nav a {
+      text-decoration: none;
+      color: black;
+      display: block;
+      border-style: ridge;
+      border: 1px;
+  }
+  nav a:hover {
+   background: rgb(217, 170, 51);
+   color: black;
+  }
+  .header a.active {
+    background-color:  rgb(217, 170, 51);
+    color: black;
+  }
+  blockquote {text-align: center; color: black; font-family: 'Josefin Sans', sans-serif; margin: 10px 30px; border: 1px; padding: 25px; background-color: rgb(217, 170, 51); border: 1px solid black; box-sizing: border-box;clear: both;}
+  h1 {font-family: 'Josefin Sans', sans-serif; color:black; text-align: center;line-height: 50px;margin-top: 50px; margin-right:300px;float:inline-end;font:bold;font-size: 40px;margin-left: 10px;}
+  body {background-color: wheat;
+  background-image: url(images/grain222.png);}
+  h2 {font-family: 'Josefin Sans', sans-serif;color: brown; text-align: center;}
+  p {text-align: center;font-family: 'Josefin Sans', sans-serif; margin: 15px 35px; border: 1px; padding: 20px; background-color: rgb(217, 170, 51); border: 1px solid rgb(0, 0, 0); box-sizing: content-box;}
+  div {background-color:rgba(217, 170, 51, .9);margin:0 auto 0 auto;width: 940px;}
+  .pages {
+    text-align:center;
+    color: black;
+    background-color: rgb(217, 170, 51);
+  }
+  div#container {
+            padding-left: 30px; text-align: center;display: flex;justify-content: center;height: 500px;align-items: center;
+  }
+  img {
+    width: 750px;height: 500px;margin: 0 auto 0 auto;
+  }
+  .imgimg {display: block; margin-left: auto; margin-right: auto;}
+  .newimg {width: 200px; height: 160px;border:3px solid #000000;margin-top: 5px;margin-left: 5px;
+}
+.peyton {width: 750px;height: 500px;margin: 0 auto 0 auto;display: block; margin-left: auto; margin-right: auto;}
+.brews {width: 500px;height: 625px;margin: 0 auto 0 auto;display: block; margin-left: auto; margin-right: auto;}
+footer {
+  text-align: center;
+  padding: 1px;
+  color: black;
+  clear: both;
+  font-family: 'Josefin Sans', sans-serif;}
