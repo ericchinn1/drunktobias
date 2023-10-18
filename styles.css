@@ -41,7 +41,7 @@
   blockquote {text-align: center; color: black; font-family: 'Josefin Sans', sans-serif; margin: 10px 30px; border: 1px; padding: 25px; background-color: rgb(217, 170, 51); border: 1px solid black; box-sizing: border-box;clear: both;}
   h1 {font-family: 'Josefin Sans', sans-serif; color:black; text-align: center;line-height: 50px;margin-top: 50px; margin-right:300px;float:inline-end;font:bold;font-size: 40px;margin-left: 10px;}
   body {background-color: wheat;
-  background-image: url(images/grain222.png);}
+  background-image: url(images/grain222.png);background-attachment: fixed;}
   h2 {font-family: 'Josefin Sans', sans-serif;color: brown; text-align: center;}
   p {text-align: center;font-family: 'Josefin Sans', sans-serif; margin: 15px 35px; border: 1px; padding: 20px; background-color: rgb(217, 170, 51); border: 1px solid rgb(0, 0, 0); box-sizing: content-box;}
   div {background-color:rgba(217, 170, 51, .9);margin:0 auto 0 auto;width: 940px;}
